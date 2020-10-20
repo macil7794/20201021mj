@@ -1,0 +1,122 @@
+html{font-family: 'Noto Sans KR', sans-serif;}
+.g{margin-top:30px;
+	width: 100px;
+	margin-left: 540px;
+	position: absolute;
+
+ 	animation-name: bounce;
+ 	animation-duration: 4s;
+    animation-iteration-count: infinite;}
+
+.z{margin-top:30px;
+	width: 100px;
+	margin-left: 650px;
+	position: absolute;
+
+	animation-name: bounce;
+	animation-duration: 2s;
+    animation-iteration-count: infinite;}
+
+.j{margin-top:30px;
+	width: 100px;
+	margin-left: 760px;
+	position: absolute;
+
+	animation-name: bounce;
+	animation-duration: 3s;
+    animation-iteration-count: infinite;}
+
+@keyframes bounce
+{
+  	0%, 100%{top: 0px;
+             animation-timing-function: ease-out;}
+ 
+    50%{top: 90px;
+        animation-timing-function: ease-in;}
+            }
+.blue {margin-top:150px;
+	width: 270px;
+	margin-left: 300px;
+	position: absolute;}
+.black {margin-top:150px;
+	width: 270px;
+	margin-left: 580px;
+	position: absolute;}
+.red {margin-top:150px;
+	width: 270px;
+	margin-left: 860px;
+	position: absolute;}
+.yellow {margin-top:400px;
+	width: 270px;
+	margin-left: 430px;
+	position: absolute;}
+.green {margin-top:400px;
+	width: 270px;
+	margin-left: 730px;
+	position: absolute;}
+
+#rotating_img1 {
+    -webkit-animation: rotation 7s infinite linear;
+}
+
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
+}
+#rotating_img2 {
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
+}
+#rotating_img3{
+    -webkit-animation: rotation 7s infinite linear;
+}
+
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(720deg);}
+}
+#rotating_img4{
+    -webkit-animation: rotation 5s infinite linear;
+}
+
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(-360deg);}
+}
+
+.t{margin-top:220px;
+	width: 1200px;
+	margin-left: 120px;
+	position: absolute;}
+.c1{margin-top:350px;
+	width: 210px;
+	margin-left: 220px;
+	position: absolute;}
+.c2{margin-top:350px;
+	width: 320px;
+	margin-left: 1050px;
+	position: absolute;}
+.c3{margin-top:500px;
+	width: 200px;
+	margin-left: 330px;
+	position: absolute;}
+.c4{margin-top:470px;
+	width: 320px;
+	margin-left: 880px;
+	position: absolute;}
+.w{margin-top:630px;
+	margin-left: 600px;
+	line-height: 1.7;
+	font-size: 1.3em; 
+	font-weight: 700;
+	color:white;
+	position: absolute;
+	text-align: center;}
